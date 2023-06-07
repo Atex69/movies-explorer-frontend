@@ -1,7 +1,10 @@
 .navigation {
     width: 59.2%;
 }
-
+.navigation__container{
+    display: flex;
+    justify-content: flex-end;
+}
 .navigation__btn-menu {
     display: none;
     margin-left: auto;
