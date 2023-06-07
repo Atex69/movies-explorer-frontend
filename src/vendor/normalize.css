@@ -339,7 +339,7 @@ summary {
 template {
     display: none;
 }
-
+ul li { list-style-type: none; }
 /**
  * Add the correct display in IE 10.
  */
