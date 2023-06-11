@@ -3,7 +3,8 @@
 }
 
 .card__image {
-    width: 100%;
+    width: 270px;
+    height: 151px;
 }
 
 .card__element {
@@ -50,7 +51,6 @@
 .card__button_delete {
     width: 16px;
     height: 16px;
-    background: #f9f9f9;
 }
 
 .card__button_delete:hover {
@@ -76,15 +76,9 @@
         max-width: 290px;
     }
 }
-@media screen and (max-width: 770px) {
-    .card{
-        justify-self: center;
-    }
-}
-
 
 @media screen and (max-width: 540px) {
-     .card__title {
+    .card__title {
         font-size: 12px;
         line-height: 17px;
     }
